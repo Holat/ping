@@ -1,0 +1,146 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.imgh{
+    margin-bottom: 50px;
+    margin-top: 80px;
+    
+}
+h1{
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+span{
+    font-weight: 700;
+}
+.p{
+    margin-bottom: 25px;
+}
+.input-cont{
+    width: 85%;
+    margin: 0 auto;
+    height: 50px;
+    margin-bottom: 80px;
+    
+}
+
+.item{
+    height: 100%;
+    border-radius: 2rem;
+}
+.input{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.in{
+    width: 70%;
+    height: 100%;
+    text-align: left;
+}
+input{
+    width: 100%;
+    border: 1px solid hsl(223, 100%, 88%);  
+    padding-left: 20px; 
+    padding-right: 20px; 
+    outline: none;
+}
+input::placeholder{
+    color: hsl(223, 100%, 88%) ;
+}
+button{
+    width: 28%;
+    border: none;
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    cursor: pointer;
+}
+button:hover{
+    opacity: 65%;
+}
+.error{
+    margin-left: 20px;
+    margin-top: 5px; 
+    color:  hsl(354, 100%, 66%);
+}
+.img img{
+    margin: 0 auto;
+    width: 80%;
+}
+.socials{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.icon {
+    border: 1px solid hsl(223, 100%, 88%) ;
+    border-radius: 50%;
+    padding: 2px;
+    color: hsl(223, 87%, 63%);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    transition: all .8s ease;
+    cursor: pointer;
+}
+.icon:hover{
+    color: white;
+    background-color: hsl(223, 87%, 63%);
+}
+i{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+    width: 100%;
+}
+
+@media screen and (max-width:800px){
+    .container{
+        width: 90%;
+    }
+    .input-cont{
+        width: 80%;
+        height: auto;
+        margin-bottom: 100px;
+
+    }
+    .item{
+        padding: 20px;
+    }
+    .in{
+        width: 100%;
+    }
+    .img img{
+        width: 100%;
+    }
+    .input{
+        flex-direction: column;
+        gap: 0px;
+        width: 100%;
+        height: auto;
+    }
+   button{
+    width: 100%;
+    margin-top: 50px;
+
+   }
+    
+}
